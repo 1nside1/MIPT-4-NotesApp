@@ -1,0 +1,46 @@
+<resources>
+    <!-- Programėlės pavadinimas -->
+    <string name="app_name">Užrašai</string>
+
+    <!-- Šaltinio pasirinkimas -->
+    <string name="source_sqlite">SQLite</string>
+    <string name="source_json">JSON Failas</string>
+
+    <!-- Mygtukai -->
+    <string name="btn_sync">Sinchronizuoti</string>
+    <string name="btn_save">Išsaugoti</string>
+    <string name="btn_edit">Redaguoti</string>
+    <string name="btn_delete">Ištrinti</string>
+
+    <!-- Ekranų pavadinimai -->
+    <string name="title_note_detail">Užrašo Peržiūra</string>
+    <string name="title_add_note">Naujas Užrašas</string>
+    <string name="title_edit_note">Redaguoti Užrašą</string>
+
+    <!-- Laukų užuominos -->
+    <string name="hint_title">Pavadinimas</string>
+    <string name="hint_content">Turinys</string>
+
+    <!-- FAB prieinamumas -->
+    <string name="fab_add_note_description">Pridėti naują užrašą</string>
+
+    <!-- Ištrynimo patvirtinimo dialogas -->
+    <string name="dialog_delete_title">Ištrinti Užrašą</string>
+    <string name="dialog_delete_message">Ar tikrai norite ištrinti šį užrašą?</string>
+    <string name="dialog_yes">Taip</string>
+    <string name="dialog_no">Ne</string>
+
+    <!-- Toast pranešimai -->
+    <string name="toast_note_saved">Užrašas išsaugotas sėkmingai</string>
+    <string name="toast_note_updated">Užrašas atnaujintas sėkmingai</string>
+    <string name="toast_note_deleted">Užrašas ištrintas</string>
+    <string name="toast_sync_empty">Nėra užrašų sinchronizuoti</string>
+    <string name="toast_sync_success">Sinchronizavimas atliktas sėkmingai. %d užrašų sinchronizuota.</string>
+    <string name="toast_validation_error">Užpildykite visus privalomus laukus</string>
+    <string name="toast_operation_failed">Operacija nepavyko. Bandykite dar kartą.</string>
+    <string name="toast_note_not_found">Užrašas nerastas</string>
+
+    <!-- Validacijos klaidos -->
+    <string name="error_empty_title">Pavadinimas negali būti tuščias</string>
+    <string name="error_empty_content">Turinys negali būti tuščias</string>
+</resources>

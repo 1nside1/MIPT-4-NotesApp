@@ -1,0 +1,46 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Notes App</string>
+
+    <!-- Source selector -->
+    <string name="source_sqlite">SQLite</string>
+    <string name="source_json">JSON File</string>
+
+    <!-- Buttons -->
+    <string name="btn_sync">Sync</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Activity titles -->
+    <string name="title_note_detail">Note Detail</string>
+    <string name="title_add_note">Add Note</string>
+    <string name="title_edit_note">Edit Note</string>
+
+    <!-- Form hints -->
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Content</string>
+
+    <!-- FAB accessibility -->
+    <string name="fab_add_note_description">Add new note</string>
+
+    <!-- Delete confirmation dialog -->
+    <string name="dialog_delete_title">Delete Note</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this note?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+    <!-- Toast messages -->
+    <string name="toast_note_saved">Note saved successfully</string>
+    <string name="toast_note_updated">Note updated successfully</string>
+    <string name="toast_note_deleted">Note deleted</string>
+    <string name="toast_sync_empty">No notes to synchronize</string>
+    <string name="toast_sync_success">Sync complete. %d note(s) synchronized.</string>
+    <string name="toast_validation_error">Please fill in all required fields</string>
+    <string name="toast_operation_failed">Operation failed. Please try again.</string>
+    <string name="toast_note_not_found">Note not found</string>
+
+    <!-- Validation errors -->
+    <string name="error_empty_title">Title cannot be empty</string>
+    <string name="error_empty_content">Content cannot be empty</string>
+</resources>
